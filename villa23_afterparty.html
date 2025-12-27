@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Villa 23 - New Year's Day Afterparty 2026</title>
+<style>
+  /* --- Reset & Base --- */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; background: #0a0a14; color: white; line-height: 1.6; }
+
+  /* --- Hero Section --- */
+  .hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #11111a, #000);
+    padding: 20px;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px #4af, -2px -2px 5px #fa4;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  .hero .btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: 2px solid #4af;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  .hero .btn:hover {
+    background: #4af;
+    color: #000;
+  }
+
+  /* --- Sections --- */
+  .section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  h2 { font-size: 2rem; margin-bottom: 20px; text-align:center; }
+
+  /* --- Cards --- */
+  .card {
+    background: #161622;
+    padding: 25px;
+    border-radius: 16px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(80,200,255,0.2);
+  }
+
+  /* --- DJ Grid --- */
+  .dj-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .dj-grid div {
+    background: #1e1e2f;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
+
+  /* --- Pool Section --- */
+  .pool-banner {
+    margin-top: 30px;
+    height: 180px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background: rgba(0, 200, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0,200,255,0.3);
+    animation: waterGlow 2s infinite alternate;
+  }
+  @keyframes waterGlow {
+    from { box-shadow: 0 0 5px rgba(0,200,255,0.2); }
+    to { box-shadow: 0 0 25px rgba(0,200,255,0.5); }
+  }
+
+  /* --- Gallery --- */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px,1fr));
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .gallery div {
+    height: 120px;
+    background: #1b1b28;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    border: 1px dashed rgba(255,255,255,0.2);
+  }
+
+  /* --- Footer --- */
+  footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    opacity: 0.6;
+    margin-top: 40px;
+  }
+
+  /* --- Responsive --- */
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 2rem; }
+    .hero p { font-size: 1rem; }
+    h2 { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Villa 23 - New Year's Day Afterparty 2026</h1>
+  <p>Massive Sound System • Pool Party • Open DJ Decks</p>
+  <p><strong>Starts 6AM – Till Late | 1st Jan 2026</strong></p>
+  <p>Techno • Drum & Bass • House</p>
+  <a href="#" class="btn">Join the Afterparty</a>
+  <p style="margin-top:15px; opacity:0.7;">⏳ Countdown Timer Placeholder</p>
+</div>
+
+<!-- VENUE SECTION -->
+<div class="section">
+  <h2>📍 The Venue – Villa 23</h2>
+  <div class="card">
+    Villa 23 is the home of underground rave culture. Expect a towering sound system rig,
+    deep bass, raw energy, and a poolside atmosphere running from sunrise to late hours.
+    Perfect for music lovers, DJ takeovers, and non-stop vibes.
+  </div>
+</div>
+
+<!-- DJ DECKS -->
+<div class="section">
+  <h2>🎧 Open DJ Decks • Community Takeover</h2>
+  <div class="dj-grid">
+    <div>Your Name Here?</div>
+    <div>Villa Local</div>
+    <div>Decks Open</div>
+    <div>Community DJs</div>
+  </div>
+  <div class="pool-banner">🌊 POOL RAVE FROM DAWN</div>
+</div>
+
+<!-- GALLERY -->
+<div class="section">
+  <h2>📸 Gallery</h2>
+  <div class="gallery">
+    <div>Insert Venue Photo</div>
+    <div>Insert Flyer</div>
+    <div>Insert Sound System</div>
+    <div>Insert Crowd Moment</div>
+  </div>
+</div>
+
+<!-- EVENT DETAILS -->
+<div class="section">
+  <h2>🗓 Event Details</h2>
+  <div class="card">
+    <p><strong>Date:</strong> 1st Jan 2026</p>
+    <p><strong>Time:</strong> 6AM – Late</p>
+    <p><strong>Vibes:</strong> Bass Heavy • Underground • Poolside • Future Sound</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  Villa 23 • Siem Reap Underground Sound Culture • 2026
+  <br/>Social Icons Placeholder
+</footer>
+
+</body>
+</html>
